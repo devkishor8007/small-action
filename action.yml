@@ -1,0 +1,15 @@
+name: "Wow Github Action"
+description: "It my new github action"
+author: "Kishor KC"
+
+inputs:
+  GITHUB_TOKEN:
+    description: "Github token"
+    required: true
+  TENOR_TOKEN:
+    description: "Tenor API token"
+    required: true
+
+runs:
+  using: "node16"
+  main: "dist/index.js"

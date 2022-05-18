@@ -1,0 +1,24 @@
+{
+  "name": "smallactiongithub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devkishor8007/small-action.git"
+  },
+  "keywords": [],
+  "author": "Kishor KC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devkishor8007/small-action/issues"
+  },
+  "homepage": "https://github.com/devkishor8007/small-action#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.33.4"
+  }
+}
